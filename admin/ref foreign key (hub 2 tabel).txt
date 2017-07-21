@@ -1,0 +1,5 @@
+ALTER TABLE Orders
+ADD CONSTRAINT FK_PersonOrder
+FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
+
+untuk hubungan 2 table (parent and child) menggunakan constraint
